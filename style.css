@@ -3,8 +3,26 @@
 // No media query since this is the default in Bootstrap*/
 
 /*// Small devices (landscape phones, 576px and up)*/
+
+/*index*/
 @media (max-width: 575.98px) { 
-	
+	.blog-post p {
+		text-align: justify;
+	}
+}
+
+.warna-bg {
+	background: linear-gradient(to right,rgba(91,134,229,.92),rgba(54,209,220,.92));
+}
+
+.blog-post p {
+		text-align: justify;
+	}
+/*Usaha*/
+@media (max-width: 575.98px) { 
+	.card-deck {
+		/*height: 80px;*/
+	}
 }
 
 
